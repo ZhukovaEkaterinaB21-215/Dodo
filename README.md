@@ -1,7 +1,7 @@
 # :pizza: Прогрев Додо Пиццы
 
 Проект по курсу "Инженерия данных и ETL"
-![Logotype](./warm_dodo.png)
+[![Logotype](./warm_dodo.png)](https://find-combo.ru/)
 
 ## Постановка задачи
 
