@@ -273,6 +273,7 @@ for section1, section2 in zip(items_info, items_check):
                  'price': item_variation['price']}
             )
 ```
+![image_2025-04-08_08-50-58](https://github.com/user-attachments/assets/58bb9f2c-6500-4507-9cc6-ceedd3561a6a)
 
 ### Парсинг страницы комбо
 
@@ -425,6 +426,7 @@ with open('dodo_general_menu.json', 'w') as f:
 with open('dodo_combo_menu.json', 'w') as f:
     json.dump(combos_info, f, ensure_ascii=False, indent=4)
 ```
+![image_2025-04-08_08-50-59](https://github.com/user-attachments/assets/c5ba76cf-2206-4b1d-b1f8-8ca5615717c8)
 
 Важно отметить, что все просмотры отдельных страниц происходят именно с помощью имитации нажатия кнопок. Сохранение ссылки на каждую страницу и считывание данных путем открытия этих новых ссылок работает гораздо медленнее, чем первый вариант. Это происходит, так как таким образом полностью с нуля открывается сайт Додо.
 
